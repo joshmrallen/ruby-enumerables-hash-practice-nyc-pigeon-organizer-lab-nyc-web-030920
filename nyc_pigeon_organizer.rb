@@ -3,8 +3,9 @@ def nyc_pigeon_organizer(data)
   
   names = make_array(data)
   
+  pigeon_friends = make_hash(data, names)
   
-  
+  return
   
   
   
@@ -27,5 +28,20 @@ def make_array(hash_data)
    names_array.uniq!
   
   return names_array
+  
+end
+
+def make_hash(original_data, array_of_names)
+  
+  new_hash = {}
+  
+  array_of_names.each do ||
+    
+    
+    
+  end
+  
+  
+  
   
 end
