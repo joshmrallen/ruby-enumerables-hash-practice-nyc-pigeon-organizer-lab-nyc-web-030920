@@ -45,7 +45,11 @@ def make_hash(original_data, array_of_names)
   
   original_data.each do |key, value|
     
-    
+    value.each do |attribute, names|
+      
+      
+      
+    end
     
   end
   
