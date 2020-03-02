@@ -43,7 +43,11 @@ def make_hash(original_data, array_of_names)
   
   #compare the names with their occurances in the original_data hash to fill in the new_hash
   
-  
+  original_data.each do |key, value|
+    
+    
+    
+  end
   
   
 end
