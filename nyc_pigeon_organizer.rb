@@ -51,9 +51,10 @@ def make_hash(original_data, array_of_names)
       #if true, add that detail as a string to the array value of new_hash[name_key][attribute_name]
       
       
-    end
+      
+    end #value.each end
     
-  end
+  end #original_data.each end
   
   
-end
+end #make_hash method end
