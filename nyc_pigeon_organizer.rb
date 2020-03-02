@@ -19,6 +19,11 @@ def make_array(hash_data)
     end
   end
   
+   #names_array is filled as an AoA and 1. needs to be flattened and 2. duplicates removed
+   
+   names_array.flatten!
+   names_array.uniq!
+  
   return names_array
   
 end
