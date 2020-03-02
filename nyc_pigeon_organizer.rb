@@ -41,6 +41,8 @@ def make_hash(original_data, array_of_names)
     
   end
   
+  #compare the names with their occurances in the original_data hash to fill in the new_hash
+  
   
   
   
