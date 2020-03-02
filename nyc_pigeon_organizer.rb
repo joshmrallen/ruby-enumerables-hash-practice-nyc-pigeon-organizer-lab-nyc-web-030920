@@ -55,7 +55,9 @@ def make_hash(original_data, array_of_names)
           if array_of_names[i] == names[j]
             new_hash[array_of_names[i]][key].push(detail.to_s)
           end
+          j += 1
         end
+        i += 1
       end
       
     end #value.each end
