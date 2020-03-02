@@ -65,4 +65,7 @@ def make_hash(original_data, array_of_names)
   end #original_data.each end
   
   
+  return new_hash
+  
+  
 end #make_hash method end
