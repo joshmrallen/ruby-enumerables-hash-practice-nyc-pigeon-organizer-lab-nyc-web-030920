@@ -50,7 +50,15 @@ def make_hash(original_data, array_of_names)
       #compare with names_array to get a true or false value
       #if true, add that detail as a string to the array value of new_hash[name_key][attribute_name]
       
-      
+      i = 0
+      while i < array_of_names.length do
+        j = 0
+        while j < names.length do
+          if array_of_names[i] == names[j]
+            new_hash[array_of_names[i]][key]
+          end
+        end
+      end
       
     end #value.each end
     
