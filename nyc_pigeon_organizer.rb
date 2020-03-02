@@ -1,7 +1,9 @@
 def nyc_pigeon_organizer(data)
   
   
-  make_array(data)
+  names = make_array(data)
+  
+  
   
   
   
