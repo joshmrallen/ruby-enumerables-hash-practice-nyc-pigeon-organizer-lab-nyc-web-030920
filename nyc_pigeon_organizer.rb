@@ -35,9 +35,9 @@ def make_hash(original_data, array_of_names)
   
   new_hash = {}
   
-  array_of_names.each do ||
+  array_of_names.each do |name|
     
-    
+    new_hash[name] = {:color => [], :gender => [], :lives => []}
     
   end
   
