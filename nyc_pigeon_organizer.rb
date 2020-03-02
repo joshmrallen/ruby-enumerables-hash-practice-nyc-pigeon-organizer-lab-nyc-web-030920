@@ -55,7 +55,7 @@ def make_hash(original_data, array_of_names)
         j = 0
         while j < names.length do
           if array_of_names[i] == names[j]
-            new_hash[array_of_names[i]][key].push()
+            new_hash[array_of_names[i]][key].push(detail)
           end
         end
       end
