@@ -5,9 +5,7 @@ def nyc_pigeon_organizer(data)
   
   pigeon_friends = make_hash(data, names)
   
-  return
-  
-  
+  return pigeon_friends
   
 end
 
