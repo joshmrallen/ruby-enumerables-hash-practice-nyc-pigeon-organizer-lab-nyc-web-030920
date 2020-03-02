@@ -14,7 +14,7 @@ def make_array(hash_data)
   names_array = []
   
   hash_data.each do |key,value|
-    key.each do |att, names|
+    value.each do |att, names|
       names_array.push(names) 
     end
   end
