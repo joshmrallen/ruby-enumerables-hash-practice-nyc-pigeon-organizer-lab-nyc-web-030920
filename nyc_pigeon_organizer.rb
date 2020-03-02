@@ -42,6 +42,4 @@ def make_hash(original_data, array_of_names)
   end
   
   
-  
-  
 end
